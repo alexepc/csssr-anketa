@@ -1,0 +1,98 @@
+[
+  {
+    "name": "bem",
+    "text": "Методология БЭМ",
+    "checked": 1
+  },
+  {
+    "name": "jquery",
+    "text": "jQuery",
+    "checked": 1
+  },
+  {
+    "name": "grunt",
+    "text": "GRUNT/GULP",
+    "checked": 1
+  },
+  {
+    "name": "haml",
+    "text": "HAML",
+    "checked": 1
+  },
+  {
+    "name": "sass",
+    "text": "SASS",
+    "checked": 1
+  },
+  {
+    "name": "less",
+    "text": "LESS",
+    "checked": 1
+  },
+  {
+    "name": "coffee",
+    "text": "CoffeeScript",
+    "checked": 1
+  },
+  {
+    "name": "jade",
+    "text": "Jade",
+    "checked": 1
+  },
+  {
+    "name": "stylus",
+    "text": "Stylus",
+    "checked": 1
+  },
+  {
+    "name": "angular",
+    "text": "Знаю (изучаю) Angular",
+    "checked": 1
+  },
+  {
+    "name": "android",
+    "text": "Верстка под Android",
+    "checked": 0
+  },
+  {
+    "name": "ios",
+    "text": "Верстка под iOS",
+    "checked": 0
+  },
+  {
+    "name": "winphone",
+    "text": "Верстка под Windows Phone",
+    "checked": 0
+  },
+  {
+    "name": "mail",
+    "text": "Верстка рассылок",
+    "checked": 0
+  },
+  {
+    "name": "responsive",
+    "text": "Адаптивная верстка",
+    "checked": 1
+  },
+  {
+    "name": "dropbox",
+    "text": "Использую Dropbox",
+    "checked": 1
+  },
+  {
+    "name": "gmail",
+    "text": "Использую Gmail",
+    "checked": 1
+  },
+  {
+    "name": "github",
+    "text": "Использую GitHub",
+    "checked": 1
+  },
+  {
+  "name": "rails",
+  "text": "Ruby On Rails",
+  "checked": 1
+}
+
+]

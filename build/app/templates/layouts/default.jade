@@ -1,0 +1,18 @@
+include ../helpers/variables
+include ../helpers/mixins
+
++script([], ['libs/jquery/dist/jquery.min.js', 'debug.js', 'common.min.js','libs/jquery-simple-slider/js/simple-slider.min.js'])
+
+doctype html
+html(lang='ru')
+	include ../blocks/head
+	body
+		.container
+			.wrapper
+				.maincontent
+				include ../blocks/header
+				block content
+			include ../blocks/footer
+
+		include ../blocks/scripts
+

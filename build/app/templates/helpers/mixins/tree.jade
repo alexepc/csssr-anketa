@@ -1,0 +1,28 @@
+mixin skills(list)
+	.skills__col
+		ul.skills__list
+			- for (var i = 0; i < 7; ++i) {
+				li.skills__item
+					.input-field
+						input(type="checkbox" id=list[i]['name'] checked= (list[i]['checked'] == 1)).skills__item-input
+						label(for=list[i]['name']).skills__item-label
+							= list[i]['text']
+			- }
+	.skills__col
+		ul.skills__list
+			- for (var i = 7; i < 13; ++i) {
+				li.skills__item
+					.input-field
+						input(type="checkbox" id=list[i]['name'] checked= (list[i]['checked'] == 1)).skills__item-input
+						label(for=list[i]['name']).skills__item-label
+							= list[i]['text']
+			- }
+	.skills__col
+		ul.skills__list
+			- for (var i = 13; i < 19; ++i) {
+			li.skills__item
+				.input-field
+					input(type="checkbox" id=list[i]['name'] checked= (list[i]['checked'] == 1)).skills__item-input
+					label(for=list[i]['name']).skills__item-label
+						= list[i]['text']
+			- }

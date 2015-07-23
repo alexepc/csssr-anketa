@@ -1,0 +1,56 @@
+.container-inner
+  margin 0 auto
+  width 778px
+
+.title
+  margin-left -40px
+  margin-bottom 52px
+  text-align center
+  &__text
+    position absolute
+    left -9999px
+
+.label
+  font-family $regular-font
+  font-size 23px
+  font-weight 700
+
+.link
+  width 180px
+  display inline-block
+  margin-left 5px
+  color #014f98
+
+.graduate
+  margin-bottom 3px
+.graduate__item
+  &-label
+    position relative
+    margin-bottom 10px
+    display inline-block
+    cursor pointer
+  &-input
+    display none
+  &-input[type="radio"] + label
+    padding-left 30px
+    margin-right 18px
+    &:before
+      sprite($radio)
+      content ""
+      position absolute
+      left 0
+      bottom 0
+      display inline-block
+      width 28px
+      height 28px
+  &-input[type="radio"]:checked + label
+    &:before
+      sprite($radio-checked)
+      content ''
+      position absolute
+      left 0
+      bottom 0
+      display inline-block
+      width 28px
+      height 28px
+
